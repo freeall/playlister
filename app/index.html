@@ -1,0 +1,17 @@
+<%- @render('/base.html') %>
+<%{ content %>
+	<div id='index'>
+		<div class='playlist'>
+			<h1>The easy playlist</h1>
+			<div class='empty'>Add 3 videos to your playlist</div>
+			<div class='items'></div>
+		</div>
+		<div class='search'>
+			<input class='left' type='text' placeholder='Type to search...'>
+			<input class='right' type='submit' value='Search'>
+			<div class='clear'></div>
+			<div class='items'></div>
+		</div>
+	</div>
+	<script type='text/javascript' src='/js/index.js'></script>
+<%} %>
